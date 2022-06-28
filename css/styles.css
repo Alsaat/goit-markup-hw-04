@@ -412,8 +412,8 @@ ul {
 }
 
 .client-icon {
-    /* fill: currentColor; */
-    color: #AFB1B8;
+    fill: currentColor;
+    /* color: #AFB1B8; */
     /* Inspect */
 }
 
