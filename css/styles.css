@@ -501,6 +501,13 @@ ul {
     color: var(--white-text-color);
 }
 
+.address :hover,
+.address :focus {
+    color: #ffffff;
+    background-color: var(--accent-color);
+}
+
+
 .footer-contact-item,
 .footer-contact-item {
     margin-top: 9px;
