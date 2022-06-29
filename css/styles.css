@@ -139,7 +139,7 @@ ul {
 }
 
 .header-contact-link {
-    fdisplay: inline-flex;
+    display:flex
     padding: 32px 0px 32px;
     color: var(--secondary-text-color);
     align-items: center;
@@ -175,10 +175,9 @@ ul {
 .hero {
     padding-top: 200px;
     padding-bottom: 200px;
-    /* max-width: 1600px;
+    max-width: 1600px;
     min-height: 600px;
-    margin-left: auto;
-    margin-right: auto; */
+    margin: 0 auto;
     background-color: var(--hero-background-color);
     background-image: linear-gradient(to right,rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),url(../img/hero-back.jpg);
     background-repeat: no-repeat;
@@ -335,12 +334,12 @@ ul {
     height: 44px;
     display: block;
     border-radius: 50%;
-    color: #afb1b8;
-    background-color: #ffffff;
+    /* color: #afb1b8; */
+    /* background-color: #ffffff; */
 }
 
-    .team-social-link:hover,
-    .team-social-link:focus {
+.team-social-link:hover,
+.team-social-link:focus {
     color: #ffffff;
     background-color: var(--accent-color);
 }
@@ -413,8 +412,6 @@ ul {
 
 .client-icon {
     fill: currentColor;
-    /* color: #AFB1B8; */
-    /* Inspect */
 }
 
 .client-item:hover,
