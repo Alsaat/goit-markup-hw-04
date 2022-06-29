@@ -434,9 +434,9 @@ ul {
 .footer-flex {
     display: flex;
     align-items: baseline;
-    /* margin: 0;
+    margin: 0;
     padding: 0;
-    list-style: none; */
+    list-style: none;
 }
 
 .footer-social-text {
