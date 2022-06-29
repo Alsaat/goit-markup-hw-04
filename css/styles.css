@@ -439,11 +439,10 @@ ul {
 }
 
 .footer-social-text {
-    padding: 20px 0px 10px 0px;
     margin-bottom: 20px;
     font-weight: 700;
     font-size: 14px;
-    line-height: 1.14px;
+    line-height: 1.14;
     text-transform: uppercase;
     color: var(--white-text-color);
 }
