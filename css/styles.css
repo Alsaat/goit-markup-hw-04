@@ -345,9 +345,9 @@ ul {
 }
 
 .team-social-icon {
-    margin: 12px 0px 0px 12px;
+    /* margin: 12px 0px 0px 12px; */
     fill: currentColor;
-    color: #afb1b8;
+    /* color: #afb1b8; */
 }
 
 .team-social-icon:hover,
