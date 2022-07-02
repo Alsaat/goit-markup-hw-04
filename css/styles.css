@@ -334,12 +334,13 @@ ul {
     height: 44px;
     display: block;
     border-radius: 50%;
-    /* color: #afb1b8; */
-    /* background-color: #ffffff; */
+    color: #afb1b8; 
+    background-color: #ffffff;
 }
 
 .team-social-link:hover,
 .team-social-link:focus {
+    color: #ffffff;
     background-color: var(--accent-color);
 }
 .team-social-link:hover svg,
@@ -349,9 +350,9 @@ ul {
 
 
 .team-social-icon {
-    /* margin: 12px 0px 0px 12px; */
+    margin: 12px 0px 0px 12px; 
     fill: currentColor;
-    /* color: #afb1b8; */
+    
 }
 
 .team-social-icon:hover,
@@ -437,23 +438,24 @@ ul {
 
 .footer-flex {
     display: flex;
-    margin-left: 72px;
+    margin-left: 0px;
     padding: 0;
     list-style: none;
 }
 
 .footer-social-text {
-    margin-bottom: 20px;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.14;
-    text-transform: uppercase;
-    color: var(--white-text-color);
+    padding: 20px 0px 10px 0px;
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14px;
+  text-transform: uppercase;
+  color: var(--white-text-color);
 }
 
 .footer-social-flex {
-    margin-left: 60px;
-    /* width: 206px; */
+    margin-left: 70px;
+    width: 206px;
 }
 
 .footer-social-list {
