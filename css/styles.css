@@ -433,7 +433,7 @@ ul {
 
 .footer-flex {
     display: flex;
-    margin: 0;
+    margin-left: 72px;
     padding: 0;
     list-style: none;
 }
@@ -448,7 +448,7 @@ ul {
 }
 
 .footer-social-flex {
-    margin:auto;
+    margin-left: 60px;
     /* width: 206px; */
 }
 
