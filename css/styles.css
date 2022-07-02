@@ -340,9 +340,13 @@ ul {
 
 .team-social-link:hover,
 .team-social-link:focus {
-    color: #ffffff;
     background-color: var(--accent-color);
 }
+.team-social-link:hover svg,
+.team-social-link:focus svg {
+    fill: white;
+}
+
 
 .team-social-icon {
     /* margin: 12px 0px 0px 12px; */
