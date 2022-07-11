@@ -243,6 +243,9 @@ ul {
     max-width: 270px;
 }
 
+.features-icon {
+    align-items: center;}
+
 .features-title {
     margin-bottom: 10px;
     font-weight: 700;
