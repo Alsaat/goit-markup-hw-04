@@ -43,7 +43,6 @@ ul {
 
 }
 
-
 .link {
     text-decoration: none;
 }
@@ -501,16 +500,14 @@ ul {
 .footer-contact {
     margin-top: 20px;
 }
-
-
 .footer-contact-link.address {
     color: var(--white-text-color);
 }
 
-.address :hover,
-.address :focus {
-    var:var(--accent-color)    
-    background-color: var(--accent-color);
+
+.address {
+    
+    /* background-color: var(--accent-color); */
 }
 
 
