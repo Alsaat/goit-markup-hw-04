@@ -21,9 +21,7 @@ body {
     list-style: none;
 }
 
-.link {
-    text-decoration: none;
-}
+
 
 h1,
 h2,
@@ -36,7 +34,6 @@ ul {
     margin: 0;
     padding: 0;
 }
-
 .container {
     width: 1200px;
     margin-left: auto;
@@ -44,6 +41,11 @@ ul {
     padding-left: 15px;
     padding-right: 15px;
 
+}
+
+
+.link {
+    text-decoration: none;
 }
 
 .logo {
@@ -139,7 +141,7 @@ ul {
 }
 
 .header-contact-link {
-    display:flex
+    display:flex;
     padding: 32px 0px 32px;
     color: var(--secondary-text-color);
     align-items: center;
@@ -499,13 +501,15 @@ ul {
 .footer-contact {
     margin-top: 20px;
 }
+
+
 .footer-contact-link.address {
     color: var(--white-text-color);
 }
 
 .address :hover,
 .address :focus {
-    color: #ffffff;
+    var:var(--accent-color)    
     background-color: var(--accent-color);
 }
 
